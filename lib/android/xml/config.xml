@@ -20,14 +20,14 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         id        = "io.cordova.helloCordova"
         version   = "2.0.0">
-    <name>Hello Cordova</name>
+    <name>EstNW Test</name>
 
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Test application
     </description>
 
     <author href="http://cordova.io" email="dev@cordova.apache.org">
-        Apache Cordova Team
+        EstNW Development Team
     </author>
 
     <access origin="*"/>
@@ -36,13 +36,12 @@
     <content src="index.html" />
 
     <preference name="loglevel" value="DEBUG" />
-    <!--
+
       <preference name="splashscreen" value="resourceName" />
       <preference name="backgroundColor" value="0xFFF" />
       <preference name="loadUrlTimeoutValue" value="20000" />
       <preference name="InAppBrowserStorageEnabled" value="true" />
       <preference name="disallowOverscroll" value="true" />
-    -->
 
     <feature name="App">
       <param name="android-package" value="org.apache.cordova.App"/>
